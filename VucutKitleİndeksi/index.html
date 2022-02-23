@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Body Mass Index</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-6 text">
+              <h2>Vücut Kitle İndeksi Nedir ?</h2>
+              <hr>
+              <p>
+                Yetişkin bir insanın ağırlığının, boyuna göre normal olup olmadığını gösteren bir parametredir. Eğer mevcut ağırlığınız idealin altında ya da üstünde ise ideal noktaya ulaşabilmek için izlenecek yol, kısa sürede fazla miktarda kilo kaybetmek ya da almak değil, adım adım sağlıklı kiloya ulaşmak ve bu düzeyi uzun dönemde korumaktır.
+              </p>
+              <hr>
+              <ul>
+                Yaş aralığına göre ise kişinin ideal vücut kitle indeksi şu şekildedir:
+                <li>
+                  19-24 Yaş: 19-24 BMI.
+                </li>
+                <li>
+                  25-34 Yaş: 20-25 BMI.
+                </li>
+                <li>
+                  35-44 Yaş: 21-26 BMI.
+                </li>
+                <li>
+                  45-54 Yaş: 22-27 BMI.
+                </li>
+                <li>
+                  55-64 Yaş: 23-28 BMI.
+                </li>
+                <li>
+                  65 Yaş ve üzeri: 24-29 BMI.
+                </li>
+              </ul>
+          </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">Vücut Kitle İndeksi Hesaplama</h2>
+              <hr style="color: whitesmoke;">
+              <div class="input-group .w-50">
+                <input
+                  type="text"
+                  class="form-control kgInput"
+                  placeholder="Kilonuzu Giriniz"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control boyInput"
+                  placeholder="Boyunuzu Giriniz ( Örn : 1.70 )"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <button type="button" class="btn">Hesapla</button>
+              <div class="bmi">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
